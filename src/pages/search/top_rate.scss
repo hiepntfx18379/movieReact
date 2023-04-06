@@ -1,0 +1,57 @@
+.containerSearch {
+  height: fit-content;
+  background-color: black;
+
+  .topSearch {
+    display: flex;
+    gap: 55px;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    img {
+      height: 35px;
+      margin-right: 10px;
+    }
+
+    .btnS {
+      padding: 5px;
+      font-size: 15px;
+      border-radius: 7px;
+    }
+
+    .btnSearchPage {
+      background: aqua;
+    }
+    .btnSearchReset {
+      background-color: blueviolet;
+      margin-left: -45px;
+    }
+  }
+
+  .topTitle {
+    font-weight: 500;
+    font-size: 32px;
+    color: white;
+    margin-left: 5px;
+  }
+
+  .inputSearch {
+    height: 40px;
+    margin-right: -45px;
+    width: 50%;
+    border: none;
+    border-radius: 25px;
+    padding: 10px;
+    padding: 0px 0px 0px 10px;
+  }
+
+  .top_rateSearch {
+    margin-left: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    .msgError {
+      color: white;
+      font-size: 42px;
+    }
+  }
+}

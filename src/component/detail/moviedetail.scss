@@ -1,0 +1,36 @@
+.infoMovie {
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  display: flex;
+  margin-top: 70px;
+}
+.detailMovie {
+  flex: 1;
+
+  hr {
+    width: 95%;
+    margin-left: 0px;
+    left: 0;
+    margin-bottom: 25px;
+  }
+  .dubut {
+    margin-bottom: 18px;
+    line-height: 1.8;
+  }
+
+  .desc {
+    font-weight: 400;
+    width: 96%;
+  }
+}
+h2 {
+  font-size: 32px;
+}
+.video {
+  flex: 1;
+}
+img {
+  width: 100%;
+  object-fit: cover;
+}

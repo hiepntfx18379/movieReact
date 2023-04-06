@@ -1,0 +1,7 @@
+.imageTop {
+  & img:hover {
+    transition: all 0.2s ease-in-out;
+    transform: scale(1.2);
+    cursor: pointer;
+  }
+}
